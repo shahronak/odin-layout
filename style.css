@@ -1,0 +1,61 @@
+body {
+    font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin: 0px;
+    min-height: 100vh;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.header, .footer, .hero-section {
+    background-color: #1F2937;
+}
+
+.header {
+    background-color: #1F2937;
+    padding: 0px 166px; 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    color: #F9FAF8;
+    font-size: 24px;
+}
+
+ul.header-links {
+    color: #e5e7eb;
+    font-size: 18px;
+    list-style: none;
+    display: flex;
+    gap: 16px;
+}
+
+.hero-section {
+    background-color: #1F2937;
+}
+
+.info-section {
+
+}
+
+.quote-section {
+    background-color: #E5E7EB;
+}
+
+.cta-section {
+
+}
+
+
+.footer {
+    color: #e5e7eb;
+    font-size: 18px;
+    height: 66px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
