@@ -13,9 +13,14 @@ body {
     background-color: #1F2937;
 }
 
-.header, .hero-section, .info-section, .quote-section, .cta-section {
+.header, .hero-section, .cta-section {
     padding: 0px 166px; 
 }
+
+.info-section, .quote-section {
+    padding: 0px 250px; 
+}
+
 
 .hero-section, .info-section, .quote-section, .cta-section {
     flex-grow: 1;
@@ -130,16 +135,25 @@ ul.header-links {
 /* Quote section */
 
 .quote-section {
+    display: flex;
+    flex-direction: column;
     background-color: #E5E7EB;
+    justify-content: center;
 }
 
 .quote {
-
+    font-size: 36px;
+    font-weight: 300;
+    color: #1F2937;
+    font-style: italic;
 }
 
 .quote-author {
-
+    font-weight: bold;
+    text-align: right;
 }
+
+/* CTA section */
 
 .cta-section {
 
